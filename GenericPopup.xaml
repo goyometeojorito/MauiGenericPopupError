@@ -5,9 +5,8 @@
 			 xmlns:local="clr-namespace:MauiGenericPopupError"
 			 x:TypeArguments="local:ExampleClass?"
              x:Class="MauiGenericPopupError.GenericPopup"
-			 
+			 BackgroundColor="{StaticResource PopupColor}"
 			   >
-	<!--BackgroundColor="{StaticResource PopupColor}"-->
 	<!-- If remove the line with StaticResource the project must compile! -->
     <VerticalStackLayout>
         <Label 
