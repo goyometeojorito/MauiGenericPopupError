@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-			 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-			 xmlns:local="clr-namespace:MauiGenericPopupError"
-			 x:TypeArguments="local:ExampleClass?"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:local="clr-namespace:MauiGenericPopupError"
+             x:TypeArguments="local:ExampleClass?"
              x:Class="MauiGenericPopupError.GenericPopup"
-			 BackgroundColor="{StaticResource PopupColor}"
-			   >
-	<!-- If remove the line with StaticResource the project must compile! -->
+             BackgroundColor="{StaticResource PopupColor}"
+               >
+    <!-- If remove the line with StaticResource the project must compile! -->
     <VerticalStackLayout>
         <Label 
             Text="Hello"
